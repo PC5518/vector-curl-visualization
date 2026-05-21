@@ -4,7 +4,7 @@ from matplotlib.widgets import RadioButtons, Slider
 from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import matplotlib.animation as animation
-
+# Attention to the users and readers: this code has been gone through several bug reduction system like claude etc. However, I have not maded optimizing of memory as the primary goal of the project.
 class FieldVisualizer:
     def __init__(self):
         # --- Basic Setup ---
