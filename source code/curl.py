@@ -6,6 +6,7 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import matplotlib.animation as animation
 # Attention to the users and readers: this code has been gone through several bug reduction system like claude etc. However, I have not maded optimizing of memory as the primary goal of the project.
 # If the AIM is to focus on memory optimization then native c or c++ is the best way to resolve it.
+# In this case the whole code should be rewritten in CPP or C. I am always open for any issues or pull request. 
 class FieldVisualizer:
     def __init__(self):
         # --- Basic Setup ---
