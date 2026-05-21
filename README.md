@@ -1,7 +1,8 @@
 # Interactive Curl Visualization
 
 An interactive 3D tool for visualizing and understanding **curl** in vector fields, built with Python and Matplotlib. It uses an animated paddlewheel metaphor to intuitively demonstrate the difference between conservative and non-conservative vector fields.
-![Uploading image.png…]()
+<img width="1081" height="594" alt="image" src="https://github.com/user-attachments/assets/8adee9ff-15d8-4a28-8253-3a15ce7aef66" />
+
 
 ---
 
