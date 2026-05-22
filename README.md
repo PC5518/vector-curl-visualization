@@ -28,7 +28,7 @@ The curl of a vector field measures how much the field "rotates" or "circulates"
 
 - Python 3.7+
 - NumPy
-- Matplotlib (with `mpl_toolkits` for 3D support)
+- Matplotlib (with `mpl_toolkits` for 3D support in Ubuntu's linux distribution.)
 
 Install dependencies with:
 
