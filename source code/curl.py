@@ -4,6 +4,7 @@ from matplotlib.widgets import RadioButtons, Slider
 from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import matplotlib.animation as animation
+# note: for windows users using wsl you must need an external animation viewer that can be directly downloaded by the sudo apt commands from the GNOME terminal.
 # Attention to the users and readers: this code has been gone through several bug reduction system like claude etc. However, I have not maded optimizing of memory as the primary goal of the project.
 # If the AIM is to focus on memory optimization then native c or c++ is the best way to resolve it.
 # In this case the whole code should be rewritten in CPP or C. I am always open for any issues or pull request. 
