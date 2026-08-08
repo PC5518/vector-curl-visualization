@@ -10,12 +10,12 @@ import matplotlib.animation as animation
 # In this case the whole code should be rewritten in CPP or C. I am always open for any issues or pull request. 
 class FieldVisualizer:
     def __init__(self):
-        # --- Basic Setup ---
+#  for the Basic Setup ---
         self.fig = plt.figure(figsize=(12, 9))
         self.ax = self.fig.add_subplot(111, projection='3d')
         plt.subplots_adjust(left=0.0, right=0.85, top=1, bottom=0) # Make room for widgets
 
-        # --- Simulation Parameters ---
+        # these are the Simulation Parameters ---
         self.field_type = 'Conservative'
         self.strength = 1.0
         self.angle = 0  # Current angle of the paddlewheel
@@ -42,7 +42,7 @@ class FieldVisualizer:
         self.ax.set_ylim([-2, 2])
         self.ax.set_zlim([-2, 2])
         
-        self.update_vector_field() # Draw the initial vector field
+        self.update_vector_field() # to Draw the initial vector field
         self.paddles = self._create_paddlewheel() # Create the paddle geometry
         for p in self.paddles:
             self.ax.add_collection3d(p) # Add paddles to the plot
@@ -108,7 +108,7 @@ class FieldVisualizer:
         if self.field_type == 'Conservative':
             u, v, w = 0, 0, -1 * self.strength
             color = 'c'
-        else: # Non-Conservative
+        else: # case for Non-Conservative 
             u, v, w = -self.strength * self.y, self.strength * self.x, 0
             color = 'm'
             
@@ -148,7 +148,7 @@ class FieldVisualizer:
     def show(self):
         plt.show()
 
-# --- Run the Simulation ---
+# the final: Run the Simulation ---
 if __name__ == "__main__":
     vis = FieldVisualizer()
     print("--------------------------------------------------")
