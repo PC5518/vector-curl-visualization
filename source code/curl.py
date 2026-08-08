@@ -159,3 +159,6 @@ if __name__ == "__main__":
     print("Observe how the paddlewheel only spins in the Non-Conservative field!")
     print("--------------------------------------------------")
     vis.show()
+# location: Kolkata, WB, Republic of India
+# Name:Aditya Narayan Singh
+# date: 23 may 2026   (present in delhi ncr)
